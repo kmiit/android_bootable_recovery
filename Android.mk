@@ -107,7 +107,8 @@ LOCAL_SHARED_LIBRARIES += android.hardware.boot@1.0 \
                           liblp \
                           liblz4 \
                           libprotobuf-cpp-lite \
-                          libutils
+                          libutils \
+                          libzstd
 LOCAL_C_INCLUDES += \
     system/core/fs_mgr/libfs_avb/include/ \
     system/core/fs_mgr/include_fstab/ \
